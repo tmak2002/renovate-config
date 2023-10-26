@@ -7,7 +7,6 @@
     "extends": [
 	"config:recommended",
         "config:base",
-        ":automergeDigest",
         ":disableRateLimiting",
         ":rebaseStalePrs",
         "docker:enableMajor",
